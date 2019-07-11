@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/standardfile/ruby-server/archive/38cd3a6f31d78d1115760ca0905b156082ea3266.tar.gz
+SOURCE_SUM=69493620b3170d4dd04547524f42d2b520af117820bc5ce1ec508af2da57cbe1
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

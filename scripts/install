@@ -180,8 +180,20 @@ ynh_add_fpm_config
 #=================================================
 # SPECIFIC SETUP
 #=================================================
-# ...
-#=================================================
+
+# Install Bower
+ynh_install_nodejs --node-version=10
+ynh_use_nodejs
+npm install -g bower
+
+# Install Ruby Gems
+bundle install
+
+# Install Bower dependencies
+bower install
+
+# Setup Rails
+rails db:create db:migrate
 
 #=================================================
 # SETUP SYSTEMD

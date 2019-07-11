@@ -112,6 +112,14 @@ ynh_remove_fail2ban_config
 #=================================================
 # SPECIFIC REMOVE
 #=================================================
+
+# Remove Bower
+npm uninstall -g bower
+
+# Remove Node
+ynh_remove_nodejs
+
+#=================================================
 # REMOVE THE CRON FILE
 #=================================================
 
