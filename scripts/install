@@ -179,7 +179,7 @@ ynh_add_fpm_config
 #=================================================
 
 # Install Bower
-ynh_install_nodejs --node-version=10
+ynh_install_nodejs -n 10
 ynh_use_nodejs
 npm install -g bower
 
