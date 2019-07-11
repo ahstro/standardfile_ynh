@@ -178,6 +178,9 @@ ynh_add_fpm_config
 # SPECIFIC SETUP
 #=================================================
 
+# Make sure we're in the right directory
+cd "$final_path"
+
 # Install Bower
 ynh_install_nodejs -n 10
 ynh_use_nodejs
@@ -191,6 +194,9 @@ bower install
 
 # Setup Rails
 rails db:create db:migrate
+
+# Go back to previous directory, whatever that was
+cd -
 
 #=================================================
 # SETUP SYSTEMD
