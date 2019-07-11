@@ -1,12 +1,12 @@
 {
-  "name": "Standard Files",
-  "id": "standardfiles",
+  "name": "Standard File",
+  "id": "standardfile",
   "packaging_format": 1,
   "description": {
     "en": "End-to-end encryption for web, mobile, and desktop applications."
   },
   "version": "0.0.3~ynh1",
-  "url": "https://standardfiles.org/",
+  "url": "https://standardfile.org/",
   "license": "AGPL-3.0-or-later",
   "maintainer": {
     "name": "Anton Strömkvist",
@@ -24,8 +24,8 @@
         "name": "domain",
         "type": "domain",
         "ask": {
-          "en": "Choose a domain name for Standard Files",
-          "fr": "Choisissez un nom de domaine pour Standard Files"
+          "en": "Choose a domain name for Standard File",
+          "fr": "Choisissez un nom de domaine pour Standard File"
         },
         "example": "example.com"
       },
@@ -33,11 +33,11 @@
         "name": "path",
         "type": "path",
         "ask": {
-          "en": "Choose a path for Standard Files",
-          "fr": "Choisissez un chemin pour Standard Files"
+          "en": "Choose a path for Standard File",
+          "fr": "Choisissez un chemin pour Standard File"
         },
-        "example": "/standardfiles",
-        "default": "/standardfiles"
+        "example": "/standardfile",
+        "default": "/standardfile"
       },
       {
         "name": "admin",
