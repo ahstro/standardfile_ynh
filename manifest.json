@@ -56,16 +56,6 @@
           "fr": "Est-ce une application publique ?"
         },
         "default": false
-      },
-      {
-        "name": "language",
-        "type": "string",
-        "ask": {
-          "en": "Choose the application language",
-          "fr": "Choisissez la langue de l'application"
-        },
-        "choices": ["en"],
-        "default": "en"
       }
     ]
   }
