@@ -188,7 +188,7 @@ DB_PORT=3306
 DB_DATABASE=$db_name
 DB_USERNAME=$db_user
 DB_PASSWORD=$db_pwd
-" > .env
+" > $final_path/.env
 
 # Install Bower
 ynh_install_nodejs -n 10
