@@ -182,15 +182,15 @@ ynh_add_fpm_config
 cd "$final_path"
 
 # Install Bower
-ynh_install_nodejs -n 10
-ynh_use_nodejs
-npm install -g bower
+# ynh_install_nodejs -n 10
+# ynh_use_nodejs
+# npm install -g bower
 
 # Install Ruby Gems
 bundle install
 
 # Install Bower dependencies
-bower install
+# bower install
 
 # Setup Rails
 rails db:create db:migrate

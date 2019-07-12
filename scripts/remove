@@ -113,15 +113,15 @@ ynh_remove_fail2ban_config
 # SPECIFIC REMOVE
 #=================================================
 
-# Install Node so we can uninstall Bower?
-ynh_install_nodejs -n 10
-ynh_use_nodejs
+# # Install Node so we can uninstall Bower?
+# ynh_install_nodejs -n 10
+# ynh_use_nodejs
 
-# Remove Bower
-npm uninstall -g bower
+# # Remove Bower
+# npm uninstall -g bower
 
-# Remove Node
-ynh_remove_nodejs
+# # Remove Node
+# ynh_remove_nodejs
 
 #=================================================
 # REMOVE THE CRON FILE
