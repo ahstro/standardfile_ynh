@@ -202,7 +202,7 @@ cd "$final_path"
 bundle install
 
 # Install Bower dependencies
-bower install
+bower --allow-root install
 
 # Setup Rails
 rails db:create db:migrate
