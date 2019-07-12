@@ -181,6 +181,18 @@ ynh_add_fpm_config
 # Make sure we're in the right directory
 cd "$final_path"
 
+# Setup environment variables
+echo "
+#SECRET_KEY_BASE=Rails secret key used only in production environment
+#RAILS_ENV=production
+RAILS_ENV=development
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=$db_name
+DB_USERNAME=$db_user
+DB_PASSWORD=$db_pwd
+" > .env
+
 # Install Bower
 # ynh_install_nodejs -n 10
 # ynh_use_nodejs
