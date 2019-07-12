@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="ruby bundler"
+pkg_dependencies="ruby bundler default-libmysqlclient-dev"
 
 #=================================================
 # PERSONAL HELPERS
