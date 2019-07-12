@@ -178,9 +178,6 @@ ynh_add_fpm_config
 # SPECIFIC SETUP
 #=================================================
 
-# Make sure we're in the right directory
-cd "$final_path"
-
 # Setup environment variables
 echo "
 #SECRET_KEY_BASE=Rails secret key used only in production environment
@@ -197,6 +194,9 @@ DB_PASSWORD=$db_pwd
 ynh_install_nodejs -n 10
 ynh_use_nodejs
 npm install -g bower
+
+# Make sure we're in the right directory
+cd "$final_path"
 
 # Install Ruby Gems
 bundle install
